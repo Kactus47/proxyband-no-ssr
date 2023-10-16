@@ -1,11 +1,11 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createHashRouter } from "react-router-dom";
 import { MainLayout } from "./Layouts/MainLayout";
 import { PageNotFound } from "./Pages/PageNotFound";
 import { Main } from "./Pages/Main";
 import { Album } from "./Pages/Album";
 import { Post } from "./Pages/Post";
 
-export const routes = createBrowserRouter([
+export const routes = createHashRouter([
   {
     path: '/',
     element: <MainLayout />,

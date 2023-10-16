@@ -19,6 +19,8 @@
     padding: 10px 15px;
     right: 0;
     text-wrap: nowrap;
+    background: #FFF;
+    z-index: 1;
     ul li {
       cursor: pointer;
       &:not(:last-child) {
@@ -27,6 +29,16 @@
       &:hover {
         text-decoration: underline;
       }
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .sort {
+    width: 100%;
+    &__popup {
+      left: 0;
+      width: max-content;
     }
   }
 }
