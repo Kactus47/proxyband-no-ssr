@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/proxyband-no-ssr/static/css/main.3d26eb17.css",
+    "main.js": "/proxyband-no-ssr/static/js/main.42862160.js",
+    "index.html": "/proxyband-no-ssr/index.html",
+    "main.3d26eb17.css.map": "/proxyband-no-ssr/static/css/main.3d26eb17.css.map",
+    "main.42862160.js.map": "/proxyband-no-ssr/static/js/main.42862160.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3d26eb17.css",
+    "static/js/main.42862160.js"
+  ]
+}
