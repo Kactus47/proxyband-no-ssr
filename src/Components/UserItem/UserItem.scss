@@ -1,0 +1,13 @@
+.user-item {
+  &__name {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  &__links {
+    display: flex;
+    justify-content: center;
+  }
+}
+

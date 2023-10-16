@@ -1,0 +1,13 @@
+.header{
+  background: #af7eeb;
+  color: #FFF;
+  padding: 15px 0;
+  text-align: center;
+  &__logo{
+    font-size: 30px;
+    color: #FFF;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

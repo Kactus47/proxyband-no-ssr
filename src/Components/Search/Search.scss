@@ -1,0 +1,36 @@
+.search {
+  display: flex;
+  align-items: center;
+  border: 1px solid;
+  padding: 7px;
+  border-radius: 4px;
+  width: 300px;
+  justify-content: space-between;
+  &__text {
+    width: calc(100% - 30px);
+    font-size: 14px;
+    border: none;
+  }
+  &__clear {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    &:before,
+    &:after {
+      content: "";
+      position: absolute;
+      width: 20px;
+      height: 2px;
+      background: gray;
+      top: 9px;
+    }
+    &:before {
+      transform: rotate(45deg);
+    }
+    &:after {
+      transform: rotate(-45deg);
+    }
+  }
+
+}

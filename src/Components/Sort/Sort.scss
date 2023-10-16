@@ -1,0 +1,32 @@
+.sort {
+  position: relative;
+  
+  &__label {
+    span {
+      cursor: pointer;
+      text-decoration: underline;
+      margin-left: 5px; 
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+
+  &__popup {
+    position: absolute;
+    top: 26px;
+    border: 1px solid;
+    padding: 10px 15px;
+    right: 0;
+    text-wrap: nowrap;
+    ul li {
+      cursor: pointer;
+      &:not(:last-child) {
+        margin-bottom: 5px;
+      }
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
